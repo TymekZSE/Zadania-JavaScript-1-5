@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria JavaScript</title>
+	
+	<script language="JavaScript">
+	function okno_zamknij_trzcinski()  
+                       { 
+                             window.close() 
+                       }
+	</script>
+	
+</head>
+<body>
+    
+
+    <h2>1) Kiedy powstał JavaScript?</h2>
+    <p>JavaScript powstał w 1995 roku.</p>
+
+    <h2>2) Dlaczego jest to język skryptowy?</h2>
+    <p>JavaScript jest językiem skryptowym, ponieważ jest interpretowany bezpośrednio przez przeglądarkę, więc nie musi być kompilowany, by można było zobaczyć efekty jego działania.</p>
+
+    <h2>3) Gdzie jest wykonywany JS (klient lub serwer)?</h2>
+    <p>JavaScript jest wykonywany po stronie klienta, choć może być także używany na serwerze (np. Node.js).</p>
+
+    <h2>4) Dlaczego JS to bezpieczne narzędzie?</h2>
+    <p>JavaScript jest bezpieczny, ponieważ działa w izolowanym środowisku przeglądarki, które ogranicza jego dostęp do zasobów komputera użytkownika, minimalizując ryzyko niepożądanych działań.</p>
+
+    <h2>5) Czy jest to język obiektowy, jeśli tak to dlaczego?</h2>
+    <p>Tak, JavaScript jest językiem obiektowym, ponieważ umożliwia tworzenie obiektów, definiowanie metod, właściwości oraz zdarzeń, co jest cechą programowania obiektowego.</p>
+
+    <h2>6) Wymień zalety JS:</h2>
+    <p>Zaleta1: Prosty w nauce – można go zacząć używać po krótkim czasie nauki.</p>
+    <p>Zaleta2: Bardzo popularny język skryptowy z ogromną ilością dokumentacji i przykładów.</p>
+    <p>Zaleta3: Odciąża serwery, umożliwiając wykonywanie kodu po stronie użytkownika.</p>
+
+    <h2>7) Framework to:</h2>
+    <p>Framework to zestaw narzędzi, bibliotek i zasad, które ułatwiają tworzenie aplikacji przez dostarczanie gotowych rozwiązań i struktury kodu.</p>
+
+    <h2>8) Do aplikacji mobilnych można użyć Framework:</h2>
+    <p>Do aplikacji mobilnych można użyć frameworków takich jak React Native, które pozwalają na tworzenie aplikacji na różne systemy operacyjne jednocześnie.</p>
+
+    <h2>9) Aplikacje responsywne to:</h2>
+    <p>Aplikacje responsywne to aplikacje dostosowujące się do różnych rozmiarów ekranu, zapewniając prawidłowe wyświetlanie na urządzeniach mobilnych i komputerach.</p>
+
+    <h2>10) Wyjaśnienie kodu:</h2>
+    <p>&lsaquo;input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo;</p>
+    <p>To przycisk, który po kliknięciu wywołuje funkcję <code>WinOpen</code> z argumentem, by otworzyć nowe okno lub wykonać inne działanie.</p>
+
+    <h2>11) Wyjaśnienie kodu:</h2>
+    <p>window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");</p>
+    <p>To polecenie otwiera nowe okno przeglądarki z określonymi parametrami:</p>
+    <ul>
+        <li>toolbar=no: wyłącza pasek narzędzi,</li>
+        <li>directories=no: ukrywa pasek katalogów,</li>
+        <li>menubar=no: ukrywa menu,</li>
+        <li>height=280: ustawia wysokość okna na 280 pikseli,</li>
+        <li>width=160: ustawia szerokość okna na 160 pikseli,</li>
+        <li>top=200: pozycjonuje okno 200 pikseli od góry,</li>
+        <li>left=200: pozycjonuje okno 200 pikseli od lewej krawędzi.</li>
+    </ul>
+
+    <h2>12) Opis instrukcji window.close():</h2>
+    <p>Instrukcja <code>window.close()</code> zamyka bieżące okno lub kartę przeglądarki, w której została wywołana, co przydaje się po zakończeniu określonych działań.</p>
+
+	<form>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_trzcinski()"/> 
+    </form> 
+</body>
+</html>

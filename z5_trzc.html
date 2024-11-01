@@ -1,0 +1,70 @@
+<html> 
+     <head> 
+            <title> TRZCIŃSKI 3K - zadanie 5</title> 
+			          <script language="JavaScript"> 
+					  
+					               function WinOpen_g1_trzcinski()  
+               { 
+window.open("grafika1.html","okienko_g1","toolbar=no,directories=no,menubar=no,height=405,width=180,top=400,left=400"); 
+               } 
+			   
+			                function WinOpen_g2_trzcinski()  
+               { 
+window.open("grafika2.html","okienko_g2","toolbar=no,directories=no,menubar=no,height=405,width=180,top=400,left=650"); 
+               } 
+					  
+             function WinOpen_g3_trzcinski()  
+               { 
+window.open("grafika3.html","okienko_g3","toolbar=no,directories=no,menubar=no,height=405,width=180,top=400,left=900"); 
+               } 
+function WinOpen_g4_trzcinski()  
+               { 
+window.open("grafika4.html","okienko_g4","toolbar=no,directories=no,menubar=no,height=405,width=180,top=400,left=1150"); 
+               } 
+function okno_zamknij_trzcinski()  
+                       { 
+                             window.close() 
+                       } 
+          </script> 
+      </head> 
+	  
+	      <style>
+		  
+		          form {
+            text-align: center;
+        }
+		  
+		          .przycisk-zamknij {
+            text-align: center;
+			}
+		  
+        .author-line {
+            font-size: 1.7cm;
+            color: red;
+            font-weight: bold;
+			margin: 3;
+            padding: 3;
+			text-align: center;
+        }
+    </style>
+	
+	<body> 
+
+	<p class="author-line">wykonał: Tymoteusz Trzciński mój numer w dzienniku 29, czyli mam układ [(29) mod4=1] układ 1 </p>
+	
+	
+   <form> 
+		<input type="button_g1" name="zadanie3" value="grafika 1" onclick="WinOpen_g1_trzcinski(' ')">
+		<input type="button_g2" name="zadanie3" value="grafika 2" onclick="WinOpen_g2_trzcinski(' ')">
+        <input type="button_g3" name="zadanie3" value="grafika 3" onclick="WinOpen_g3_trzcinski(' ')"> 
+        <input type="button_g4" name="zadanie4" value="grafika 4" onclick="WinOpen_g4_trzcinski(' ')"> 
+        
+    </form> 
+	
+	<div class="przycisk-zamknij">
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_trzcinski()"/> 
+	</div>
+	
+</body> 
+</html> 
